@@ -1,0 +1,24 @@
+body{
+font-family:Arial;
+padding:30px;
+background:white;
+color:black;
+transition:0.5s;
+}
+
+.card{
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+.dark{
+background:#121212;
+color:white;
+}
+
+button{
+padding:10px 20px;
+margin-bottom:20px;
+cursor:pointer;
+}
