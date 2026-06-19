@@ -1,0 +1,63 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#f4f6f8;
+padding:40px;
+}
+
+.container{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:30px;
+}
+
+.checkout,
+.summary{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 2px 12px rgba(0,0,0,.1);
+}
+
+.steps{
+display:flex;
+gap:10px;
+margin:20px 0;
+}
+
+.steps div{
+padding:10px 15px;
+background:#ddd;
+border-radius:20px;
+}
+
+.steps .active{
+background:#2563eb;
+color:white;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input{
+padding:12px;
+border:1px solid #ccc;
+border-radius:8px;
+}
+
+button{
+padding:14px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
